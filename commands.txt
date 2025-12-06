@@ -1,0 +1,37 @@
+// StAuth10222: I Ali Abubaker, 000857347 certify that this material is my original work. No other person's work has been used without due acknowledgement. 
+// I have not made my work available to anyone else.
+
+
+Bot description (3 sentences or less):
+Pokémon data from the PokéAPI is returned by this bot.  It may be used to search for Pokémon by type and 
+generation, compare two Pokémon's stats,list moves,retrieve basic Pokémon information,and retrieve ability details.
+Created as a portfolio item to teach Discord slash commands and API usage.
+
+Commands:
+
+1- /pokemon <name>
+- Description: Gives you basic information about a Pokémon, like its type, height, weight, base stats, and some sample moves.
+- Argument: name (required) / Pokémon ID or Name.
+- Example: /pokemon pikachu
+
+2- /compare <pokemon1> <pokemon2>
+- Description: It looks at two Pokémon's base stats (like HP, attack, defense, etc.) and says which one is better and win for each number.
+- Arguments: pokemon1 ,pokemon2 are required.
+- Example: /compare pokemon1: charizard pokemon2: blastoise
+
+3- /ability <name>
+- Description: Gives back the ability effect and a sample Pokémon that has it.
+- Argument: name (required) / Name of a skill, like "static" or "levitate".
+- Example: /ability static
+
+4- /typesearch <type> <generation>
+- Description: It shows a list of Pokémon of a certain type that are in a certain generation (up to 20 examples).
+- Arguments: type, generation are required.
+- Example: /typesearch type: fire, generation: generation-i.
+
+5- /moves <pokemon> <limit>
+- Description: It gives you the Pokémon's first N moves.
+- Arguments: pokemon , limit are required - integer 1-30.
+- Example: /moves pokemon: mewtwo, Limit: 8
+
+
